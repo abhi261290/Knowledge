@@ -1,0 +1,4 @@
+curl -X POST https://your-app-url/chat \
+  -H "x-api-key: changeme" \
+  -H "Content-Type: application/json" \
+  -d '{"question":"What is the leave policy?"}'
